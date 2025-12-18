@@ -2,7 +2,7 @@
 
 
 const float SPRITE_INTERNAL_CROP[4] = { 26.0f, 20.0f, 130.0f, 170.0f };
-const int pontos_necessarios[MAX_NIVEIS] = { 100, 100, 100, 100, 500, 1 };
+const int pontos_necessarios[MAX_NIVEIS] = { 3500, 3000, 2500, 2000, 1500, 1 };
 const float SPRITE_COORDS[6][4] = {
     { 0 * SPRITE_W, 0 * SPRITE_H, SPRITE_W, SPRITE_H },
     { 1 * SPRITE_W, 0 * SPRITE_H, SPRITE_W, SPRITE_H },
@@ -97,4 +97,5 @@ ALLEGRO_FONT* font = NULL;
 ALLEGRO_BITMAP* mapa = NULL;
 ALLEGRO_BITMAP* menu_image = NULL;
 ALLEGRO_BITMAP* fundo_jogo = NULL;
+
 ALLEGRO_BITMAP* customizacao_image = NULL;
